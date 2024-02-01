@@ -1,0 +1,24 @@
+/* Search box container styles */
+.searchBox {
+  display: flex;
+  max-width: 400px; /* Set a maximum width for the search box */
+  margin: 50px auto; /* Center the search box and provide top margin */
+}
+
+/* Search input field styles */
+.searchInput {
+  flex: 1; /* Allow the input field to expand and take available space */
+  padding: 10px; /* Add padding to the input field */
+  border: 1px solid #000; /* Add a border to the input field */
+  outline: none; /* Remove the default outline on focus */
+}
+
+/* Search button styles */
+.searchButton {
+  background-color: #000; /* Set the background color of the button */
+  color: #fff; /* Set the text color of the button */
+  border: none; /* Remove the border of the button */
+  padding: 10px; /* Add padding to the button */
+  margin-left: 8px; /* Add a left margin to separate the button from the input field */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}

@@ -1,0 +1,37 @@
+/* Hero section container styles */
+.heroSection {
+  position: relative;
+  height: 100vh;
+  background: url("https://uniformapp.in/images/bgn.svg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Overlay styles to create a semi-transparent layer */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+}
+
+/* Content styles within the hero section */
+.content {
+  z-index: 1; /* Place content above the overlay */
+  color: #fff; /* Set text color to white */
+}
+
+/* Heading styles within the hero section */
+.content h1 {
+  /* margin-top: 150px; */ /* Optional margin-top adjustment */
+  font-size: 3em; /* Set the font size of the heading */
+  margin-bottom: 20px; /* Add margin at the bottom of the heading */
+}
+
+/* Paragraph styles within the hero section */
+.content p {
+  font-size: 1.5em; /* Set the font size of paragraphs */
+}
